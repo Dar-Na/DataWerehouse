@@ -2,6 +2,7 @@ import datetime
 import pilot
 import deps
 import samolot
+import kurs
 
 if __name__ == "__main__":
     names = []
@@ -25,4 +26,7 @@ if __name__ == "__main__":
 
     samolots = samolot.generateSamolts(num=100)
     print(samolots)
+
+    kurses = kurs.generateKurses(num=100)
+    print(kurses)
 

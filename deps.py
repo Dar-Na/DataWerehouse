@@ -2,6 +2,10 @@ import datetime
 import random
 
 LETTERS = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+cities = ["Gdańsk", "Wrocław", "Warszawa", "Kraków", "Poznań", "Londyn", "Rzym", "Sztokholm", "Oslo", "Paryż",
+          "Barcelona", "Kiruna", "Bruksela", "Evenes", "Helsinki", "Hamburg", "Kolonia", "Berlin", "Lipsk",
+          "Kopenhaga", "Ateny", "Kalamata", "Sybin", "Praga", "Ostrawa", "Lublana", "Mumbaj", "Astana", "Hawana"]
+
 
 def parse(file):
     temp = open(file, "r")
