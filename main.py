@@ -3,11 +3,13 @@ import pilot
 import deps
 import samolot
 import kurs
+import pandas as pd
+
+def save(arr, path):
+    df = pd.DataFrame(arr)
+    df.to_csv("./data/" + path, index=False)
 
 if __name__ == "__main__":
-    names = []
-    surnames = []
-
     names = deps.parse("names.txt")
     print(names)
     print(len(names))
@@ -30,3 +32,9 @@ if __name__ == "__main__":
     kurses = kurs.generateKurses(num=100)
     print(kurses)
 
+    save(names, "names.csv")
+    save(surnames, "surnames.csv")
+    save(PESELS, "PESELS.csv")
+    save(pilots, "pilots.csv")
+    save(samolots, "samolots.csv")
+    save(kurses, "kurses.csv")
