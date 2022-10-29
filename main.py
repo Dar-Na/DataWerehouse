@@ -3,6 +3,7 @@ import pilot
 import deps
 import samolot
 import kurs
+import loty
 import pandas as pd
 
 def save(arr, path):
@@ -18,9 +19,10 @@ if __name__ == "__main__":
     print(surnames)
 
     start_date = datetime.date(2019, 1, 1)
-    end_date = datetime.date(2020, 12, 31)
+    end_date_one = datetime.date(2020, 12, 31)
+
     num = 1500
-    PESELS = pilot.generatePESELs(num=num, start_date=start_date, end_date=end_date)
+    PESELS = pilot.generatePESELs(num=num, start_date=start_date, end_date=end_date_one)
     print(PESELS)
 
     pilots = pilot.generatePilots(PESELs=PESELS, names=names, surnames=surnames)
@@ -29,12 +31,22 @@ if __name__ == "__main__":
     samolots = samolot.generateSamolts(num=100)
     print(samolots)
 
-    kurses = kurs.generateKurses(num=100)
+    kurses = kurs.generateKurses(num=60)
     print(kurses)
 
-    save(names, "names.csv")
-    save(surnames, "surnames.csv")
+    times = deps.time(kurses)
+    print(times)
+
+    loty, awarii, pilociWLocie = loty.generateLoty(num=6000, kurses=kurses, samolots=samolots, pilotes=pilots, times=times, start_date=start_date, end_date=end_date_one)
+    # print(loty)
+    # print(awarii)
+    # print(pilociWLocie)
+
     save(PESELS, "PESELS.csv")
     save(pilots, "pilots.csv")
     save(samolots, "samolots.csv")
     save(kurses, "kurses.csv")
+    save(times, "times.csv")
+    save(loty, "loty.csv")
+    save(awarii, "awarii.csv")
+    save(pilociWLocie, "pilociWLocie.csv")
