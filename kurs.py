@@ -19,7 +19,10 @@ def kurs(i):
 def generateKurses(num):
     arr = []
     for i in range(0, num):
-        arr.append(kurs(i))
+        k = kurs(i)
+        while k in arr:
+            k = kurs(i)
+        arr.append(k)
 
     return arr
 
