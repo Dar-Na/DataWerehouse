@@ -1,101 +1,101 @@
-0
-"1,BJC747,Narrow Body Aircraft,1930"
-"2,BTD734,Narrow Body Aircraft,1967"
-"3,UXW488,Airbus,2019"
-"4,YYS150,Wide Body Airliners,1935"
-"5,IUO577,Airbus,2007"
-"6,ZMO164,Regional,2004"
-"7,VLY198,Airbus,1983"
-"8,RAU188,Wide Body Airliners,1962"
-"9,TYK466,Narrow Body Aircraft,1974"
-"10,IWD876,Airbus,1981"
-"11,LIM991,Piston Aircraft,1985"
-"12,GER821,Narrow Body Aircraft,2005"
-"13,TWN274,Wide Body Airliners,1981"
-"14,LPA768,Mid-Size Jet,1947"
-"15,ZER825,Commuter liner,1929"
-"16,LQZ700,Jumbo Jet,1919"
-"17,WIR304,Regional Jet,1978"
-"18,TJZ845,Regional,1966"
-"19,AAF267,Narrow Body Aircraft,1988"
-"20,JSR947,Turboprop Aircraft,1989"
-"21,OQO588,Jumbo Jet,1929"
-"22,RVL992,Airbus,1984"
-"23,RSL813,Regional,1962"
-"24,ENA119,Jumbo Jet,1933"
-"25,JNE418,Light Jet,1972"
-"26,PJZ827,Turboprop Aircraft,2000"
-"27,QBW751,Mid-Size Jet,1998"
-"28,OWX929,Wide Body Airliners,1963"
-"29,JEG989,Mid-Size Jet,1954"
-"30,INI481,Jumbo Jet,1945"
-"31,UIA900,Regional Jet,1984"
-"32,KZE474,Regional Jet,1998"
-"33,QSU186,Airbus,1933"
-"34,HHD426,Jumbo Jet,2012"
-"35,PZF765,Wide Body Airliners,1922"
-"36,GIQ886,Regional Jet,1913"
-"37,SCF480,Regional,1922"
-"38,VDU192,Mid-Size Jet,1938"
-"39,QSO768,Piston Aircraft,1912"
-"40,DKX703,Commuter liner,1933"
-"41,WRN190,Mid-Size Jet,1930"
-"42,SFO358,Piston Aircraft,1980"
-"43,YLL824,Light Jet,1934"
-"44,MOZ564,Airbus,1952"
-"45,BFW443,Regional,1942"
-"46,JJD381,Airbus,1940"
-"47,VHX235,Piston Aircraft,1928"
-"48,DID776,Airbus,2011"
-"49,NRW593,Mid-Size Jet,1951"
-"50,VHS974,Turboprop Aircraft,1982"
-"51,KAP706,Narrow Body Aircraft,1923"
-"52,KCC593,Regional,1984"
-"53,NDP393,Narrow Body Aircraft,1926"
-"54,PKV637,Regional Jet,2007"
-"55,GSJ177,Mid-Size Jet,1923"
-"56,YRT666,Narrow Body Aircraft,1931"
-"57,ECE340,Regional,1919"
-"58,BLU880,Airbus,1911"
-"59,FNU524,Airbus,1919"
-"60,JXO591,Regional,1946"
-"61,QHW123,Airbus,1953"
-"62,MGJ923,Airbus,1913"
-"63,TCY723,Turboprop Aircraft,1965"
-"64,OCW133,Piston Aircraft,1987"
-"65,HXQ325,Regional,2021"
-"66,MEA630,Turboprop Aircraft,1955"
-"67,UTK337,Wide Body Airliners,2019"
-"68,LVY698,Light Jet,2019"
-"69,RXK544,Turboprop Aircraft,2010"
-"70,DFA580,Regional Jet,1977"
-"71,WXH601,Airbus,2000"
-"72,RHE371,Regional Jet,1971"
-"73,ZNT421,Mid-Size Jet,1978"
-"74,GON383,Light Jet,1915"
-"75,EYW410,Narrow Body Aircraft,1973"
-"76,PPV991,Light Jet,1965"
-"77,VLT528,Jumbo Jet,1916"
-"78,KZZ511,Regional Jet,1971"
-"79,AAW544,Jumbo Jet,1989"
-"80,UTU735,Jumbo Jet,1958"
-"81,FQD442,Turboprop Aircraft,1960"
-"82,SGJ720,Piston Aircraft,1953"
-"83,IGE226,Commuter liner,1962"
-"84,MIH204,Regional Jet,1944"
-"85,GVX945,Commuter liner,1989"
-"86,KPT282,Turboprop Aircraft,1973"
-"87,BMA562,Regional,1953"
-"88,XRT332,Commuter liner,1963"
-"89,RIE235,Regional,2016"
-"90,EUY453,Airbus,1961"
-"91,CGB810,Wide Body Airliners,1995"
-"92,PET867,Piston Aircraft,1989"
-"93,WQL766,Mid-Size Jet,1944"
-"94,YKU327,Jumbo Jet,2004"
-"95,OPZ773,Commuter liner,1961"
-"96,SIB472,Mid-Size Jet,1965"
-"97,TPP985,Mid-Size Jet,1926"
-"98,MCC956,Mid-Size Jet,2000"
-"99,BLO101,Narrow Body Aircraft,1937"
-"100,MQF779,Piston Aircraft,1917"
+0,1,2,3
+1,OJO445,Commuter liner,2004
+2,APM888,Regional Jet,1923
+3,MPB310,Mid-Size Jet,1997
+4,YMX598,Commuter liner,1963
+5,HXZ330,Airbus,1930
+6,LPV538,Wide Body Airliners,1945
+7,WMJ823,Piston Aircraft,1974
+8,EXA896,Piston Aircraft,1931
+9,WPQ772,Jumbo Jet,1978
+10,SAY540,Regional Jet,1928
+11,LVR647,Narrow Body Aircraft,1917
+12,YTP812,Light Jet,1946
+13,TBE314,Jumbo Jet,1956
+14,LRI806,Light Jet,1971
+15,XUQ760,Regional Jet,1945
+16,SPJ255,Jumbo Jet,2001
+17,DJG694,Narrow Body Aircraft,1966
+18,VBM943,Regional Jet,1975
+19,XFA544,Regional,1948
+20,SSX728,Jumbo Jet,1935
+21,GEW574,Regional,1940
+22,CBS560,Turboprop Aircraft,1929
+23,HHG526,Regional,1980
+24,ALR928,Light Jet,1911
+25,AQK933,Turboprop Aircraft,2018
+26,NRZ905,Piston Aircraft,1949
+27,ILX382,Narrow Body Aircraft,1966
+28,TVN720,Turboprop Aircraft,1986
+29,RSV814,Mid-Size Jet,1953
+30,JGC669,Wide Body Airliners,1928
+31,OEB237,Wide Body Airliners,1922
+32,ZTJ269,Regional Jet,1950
+33,GEE309,Regional Jet,1933
+34,VZU639,Narrow Body Aircraft,1932
+35,BQO852,Airbus,1938
+36,ZYG445,Airbus,1925
+37,JED834,Wide Body Airliners,1977
+38,OLX211,Regional Jet,1939
+39,EZZ853,Commuter liner,2005
+40,ERF159,Light Jet,1979
+41,KPT242,Mid-Size Jet,1937
+42,XWM193,Commuter liner,1917
+43,DDH942,Wide Body Airliners,1998
+44,BCZ693,Turboprop Aircraft,1913
+45,DRZ155,Turboprop Aircraft,2010
+46,PZH548,Regional Jet,1959
+47,CTM570,Wide Body Airliners,1937
+48,UQC703,Commuter liner,1959
+49,BIB838,Commuter liner,1922
+50,JHN289,Regional,1977
+51,QKP848,Mid-Size Jet,1927
+52,KEF583,Regional,1924
+53,NVF272,Jumbo Jet,1998
+54,BJZ565,Wide Body Airliners,2003
+55,ICV988,Piston Aircraft,2004
+56,AKS759,Wide Body Airliners,2019
+57,VHD712,Regional,1976
+58,AKB609,Jumbo Jet,1976
+59,GMT829,Airbus,1979
+60,MXJ135,Turboprop Aircraft,2013
+61,UER599,Commuter liner,1940
+62,ZWC991,Airbus,1940
+63,IUW611,Mid-Size Jet,1945
+64,ZRQ220,Narrow Body Aircraft,1954
+65,JOP460,Turboprop Aircraft,1928
+66,KUS398,Turboprop Aircraft,1944
+67,HEZ925,Turboprop Aircraft,1957
+68,KBI119,Light Jet,1927
+69,RIP555,Regional Jet,1936
+70,RIS777,Turboprop Aircraft,1978
+71,DRW652,Mid-Size Jet,1941
+72,FTX510,Airbus,1996
+73,IWS662,Airbus,2011
+74,YKR424,Piston Aircraft,1926
+75,ZEE785,Narrow Body Aircraft,2016
+76,YMP494,Wide Body Airliners,2007
+77,JAG820,Narrow Body Aircraft,1966
+78,HAM187,Light Jet,1966
+79,WYF781,Commuter liner,1914
+80,WZA477,Light Jet,2003
+81,EVD224,Wide Body Airliners,2014
+82,VEZ742,Jumbo Jet,1930
+83,AZT465,Regional,1929
+84,ISA587,Wide Body Airliners,1917
+85,WKI898,Jumbo Jet,2011
+86,FIO400,Mid-Size Jet,2019
+87,AXO193,Light Jet,1946
+88,SMN580,Mid-Size Jet,1985
+89,YFM422,Piston Aircraft,2000
+90,FRR938,Wide Body Airliners,1991
+91,EWZ719,Jumbo Jet,2005
+92,GDW627,Mid-Size Jet,2020
+93,EGZ977,Regional Jet,2020
+94,LPR646,Turboprop Aircraft,1991
+95,IBU216,Piston Aircraft,1972
+96,FZY381,Regional Jet,1947
+97,TNC182,Regional,1940
+98,TQU155,Turboprop Aircraft,1921
+99,FRH516,Airbus,1945
+100,LVJ891,Airbus,2001
