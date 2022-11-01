@@ -14,7 +14,7 @@ def kurs(i):
     tCity = tCity + " lotnisko"
     kurs = str(i + 1) + "," + index + "," + fCity + "," + tCity + "," + name
     print(kurs)
-    return [i+1, index, fCity, tCity, name]
+    return [index, fCity, tCity, name]
 
 def generateKurses(num):
     arr = []
