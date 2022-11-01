@@ -13,7 +13,10 @@ def index():
 def generateIndexes(num):
     arr = []
     for _ in range(0, num):
-        arr.append(index())
+        ind = index()
+        while ind in arr:
+            ind = index()
+        arr.append(ind)
 
     return arr
 

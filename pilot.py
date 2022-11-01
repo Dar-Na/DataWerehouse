@@ -6,6 +6,8 @@ def generatePESELs(num, start_date, end_date):
 
     for _ in range(0, num):
         n = PESEL(deps.randomDate(start_date, end_date))
+        while n in PESELS:
+            n = PESEL(deps.randomDate(start_date, end_date))
         PESELS.append(n)
 
     return PESELS
@@ -15,10 +17,7 @@ def generatePilots(PESELs, names, surnames):
     for i in range(0, len(PESELs)):
         pesel = PESELs[i]
         name = names[random.randrange(0, len(names))]
-        if i % 2 == 0:
-            surname = surnames.pop(random.randrange(0, len(surnames)))
-        else:
-            surname = surnames[random.randrange(0, len(surnames))]
+        surname = surnames[random.randrange(0, len(surnames))]
         pilot = str(i+1) + "," + str(pesel) + "," + name + "," + surname
         print(pilot)
         arr.append([i+1, str(pesel), name, surname])
