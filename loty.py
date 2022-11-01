@@ -19,22 +19,22 @@ def generateLoty(num, kurses, samolots, pilotes, times, start_date, end_date):
     awarii = []
     for i in range(0, num):
         kursId = random.randrange(0, len(kurses))
-        kurs = kurses[kursId][1]
-        samolot = samolots[random.randrange(0, len(samolots))][1]
-        pilot1 = pilotes[random.randrange(0, len(pilotes))][1]
-        pilot2 = pilotes[random.randrange(0, len(pilotes))][1]
+        kurs = kurses[kursId][0]
+        samolot = samolots[random.randrange(0, len(samolots))][0]
+        pilot1 = pilotes[random.randrange(0, len(pilotes))][0]
+        pilot2 = pilotes[random.randrange(0, len(pilotes))][0]
         while (pilot1 == pilot2):
-            pilot1 = pilotes[random.randrange(0, len(pilotes))][1]
-            pilot2 = pilotes[random.randrange(0, len(pilotes))][1]
+            pilot1 = pilotes[random.randrange(0, len(pilotes))][0]
+            pilot2 = pilotes[random.randrange(0, len(pilotes))][0]
         boardingTime = random.randrange(20, 300)
         kontroler = "NaN"
         idAwarii = ""
         klasaLotu = "NaN"
         if random.randrange(0, 11) > 9:
-            samolotAwaria = samolots[random.randrange(0, len(samolots))][1]
+            samolotAwaria = samolots[random.randrange(0, len(samolots))][0]
             while (samolot == samolotAwaria):
-                samolot = samolots[random.randrange(0, len(samolots))][1]
-                samolotAwaria = samolots[random.randrange(0, len(samolots))][1]
+                samolot = samolots[random.randrange(0, len(samolots))][0]
+                samolotAwaria = samolots[random.randrange(0, len(samolots))][0]
             idAwarii = awaria(samolot, samolotAwaria)
             awarii.append([idAwarii, samolot, samolotAwaria])
         tmpTime = deps.randomDate(start_date=start_date, end_date=end_date)

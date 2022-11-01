@@ -20,7 +20,7 @@ def generatePilots(PESELs, names, surnames):
         surname = surnames[random.randrange(0, len(surnames))]
         pilot = str(i+1) + "," + str(pesel) + "," + name + "," + surname
         print(pilot)
-        arr.append([i+1, str(pesel), name, surname])
+        arr.append([str(pesel), name, surname])
 
     return arr
 
@@ -36,7 +36,7 @@ def changeName(PESELs, names, surnames):
                 surname = surnames[random.randrange(0, len(surnames))]
             pilot = str(i+1) + "," + str(pesel) + "," + name + "," + surname
             print(pilot)
-            arr.append([i+1, str(pesel), name, surname])
+            arr.append([str(pesel), name, surname])
 
     return arr
 

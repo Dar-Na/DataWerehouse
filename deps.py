@@ -25,7 +25,7 @@ def time(kurses):
     times = []
     geolocator = geopy.Nominatim(user_agent="Dar-Na")
     for i in range(0, len(kurses)):
-        str = kurses[i][4]
+        str = kurses[i][3]
         str = str.split("-")
         fCity = str[0]
         tCity = str[1]

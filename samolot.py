@@ -36,6 +36,6 @@ def generateSamolts(num):
         type = types[random.randrange(0, len(types))]
         samolot = str(i + 1) + "," + str(index) + "," + type + "," + str(year)
         print(samolot)
-        samolots.append([i+1, str(index), type, str(year)])
+        samolots.append([str(index), type, str(year)])
 
     return samolots
