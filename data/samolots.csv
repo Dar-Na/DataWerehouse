@@ -1,101 +1,251 @@
 0,1,2,3
-1,OJO445,Commuter liner,2004
-2,APM888,Regional Jet,1923
-3,MPB310,Mid-Size Jet,1997
-4,YMX598,Commuter liner,1963
-5,HXZ330,Airbus,1930
-6,LPV538,Wide Body Airliners,1945
-7,WMJ823,Piston Aircraft,1974
-8,EXA896,Piston Aircraft,1931
-9,WPQ772,Jumbo Jet,1978
-10,SAY540,Regional Jet,1928
-11,LVR647,Narrow Body Aircraft,1917
-12,YTP812,Light Jet,1946
-13,TBE314,Jumbo Jet,1956
-14,LRI806,Light Jet,1971
-15,XUQ760,Regional Jet,1945
-16,SPJ255,Jumbo Jet,2001
-17,DJG694,Narrow Body Aircraft,1966
-18,VBM943,Regional Jet,1975
-19,XFA544,Regional,1948
-20,SSX728,Jumbo Jet,1935
-21,GEW574,Regional,1940
-22,CBS560,Turboprop Aircraft,1929
-23,HHG526,Regional,1980
-24,ALR928,Light Jet,1911
-25,AQK933,Turboprop Aircraft,2018
-26,NRZ905,Piston Aircraft,1949
-27,ILX382,Narrow Body Aircraft,1966
-28,TVN720,Turboprop Aircraft,1986
-29,RSV814,Mid-Size Jet,1953
-30,JGC669,Wide Body Airliners,1928
-31,OEB237,Wide Body Airliners,1922
-32,ZTJ269,Regional Jet,1950
-33,GEE309,Regional Jet,1933
-34,VZU639,Narrow Body Aircraft,1932
-35,BQO852,Airbus,1938
-36,ZYG445,Airbus,1925
-37,JED834,Wide Body Airliners,1977
-38,OLX211,Regional Jet,1939
-39,EZZ853,Commuter liner,2005
-40,ERF159,Light Jet,1979
-41,KPT242,Mid-Size Jet,1937
-42,XWM193,Commuter liner,1917
-43,DDH942,Wide Body Airliners,1998
-44,BCZ693,Turboprop Aircraft,1913
-45,DRZ155,Turboprop Aircraft,2010
-46,PZH548,Regional Jet,1959
-47,CTM570,Wide Body Airliners,1937
-48,UQC703,Commuter liner,1959
-49,BIB838,Commuter liner,1922
-50,JHN289,Regional,1977
-51,QKP848,Mid-Size Jet,1927
-52,KEF583,Regional,1924
-53,NVF272,Jumbo Jet,1998
-54,BJZ565,Wide Body Airliners,2003
-55,ICV988,Piston Aircraft,2004
-56,AKS759,Wide Body Airliners,2019
-57,VHD712,Regional,1976
-58,AKB609,Jumbo Jet,1976
-59,GMT829,Airbus,1979
-60,MXJ135,Turboprop Aircraft,2013
-61,UER599,Commuter liner,1940
-62,ZWC991,Airbus,1940
-63,IUW611,Mid-Size Jet,1945
-64,ZRQ220,Narrow Body Aircraft,1954
-65,JOP460,Turboprop Aircraft,1928
-66,KUS398,Turboprop Aircraft,1944
-67,HEZ925,Turboprop Aircraft,1957
-68,KBI119,Light Jet,1927
-69,RIP555,Regional Jet,1936
-70,RIS777,Turboprop Aircraft,1978
-71,DRW652,Mid-Size Jet,1941
-72,FTX510,Airbus,1996
-73,IWS662,Airbus,2011
-74,YKR424,Piston Aircraft,1926
-75,ZEE785,Narrow Body Aircraft,2016
-76,YMP494,Wide Body Airliners,2007
-77,JAG820,Narrow Body Aircraft,1966
-78,HAM187,Light Jet,1966
-79,WYF781,Commuter liner,1914
-80,WZA477,Light Jet,2003
-81,EVD224,Wide Body Airliners,2014
-82,VEZ742,Jumbo Jet,1930
-83,AZT465,Regional,1929
-84,ISA587,Wide Body Airliners,1917
-85,WKI898,Jumbo Jet,2011
-86,FIO400,Mid-Size Jet,2019
-87,AXO193,Light Jet,1946
-88,SMN580,Mid-Size Jet,1985
-89,YFM422,Piston Aircraft,2000
-90,FRR938,Wide Body Airliners,1991
-91,EWZ719,Jumbo Jet,2005
-92,GDW627,Mid-Size Jet,2020
-93,EGZ977,Regional Jet,2020
-94,LPR646,Turboprop Aircraft,1991
-95,IBU216,Piston Aircraft,1972
-96,FZY381,Regional Jet,1947
-97,TNC182,Regional,1940
-98,TQU155,Turboprop Aircraft,1921
-99,FRH516,Airbus,1945
-100,LVJ891,Airbus,2001
+1,XZZ571,Light Jet,1984
+2,LIM570,Light Jet,2006
+3,ZGI510,Piston Aircraft,1926
+4,JAA194,Light Jet,1983
+5,CIF342,Jumbo Jet,1924
+6,SSC941,Airbus,1991
+7,WTB933,Regional,1916
+8,GAQ472,Regional Jet,1957
+9,HRB478,Commuter liner,1928
+10,WRT417,Jumbo Jet,1928
+11,HHE417,Narrow Body Aircraft,1919
+12,ZAQ345,Mid-Size Jet,2010
+13,JQO874,Wide Body Airliners,1992
+14,TEW163,Light Jet,1964
+15,OLW691,Wide Body Airliners,1997
+16,UZI190,Light Jet,1962
+17,ZVD638,Piston Aircraft,1930
+18,EKN161,Wide Body Airliners,1990
+19,JJY798,Narrow Body Aircraft,1943
+20,UAB627,Regional,1941
+21,EJV778,Turboprop Aircraft,1960
+22,CXU469,Light Jet,2009
+23,JVF498,Jumbo Jet,1969
+24,YSV750,Light Jet,2004
+25,OWJ388,Regional,1975
+26,GBK188,Piston Aircraft,1949
+27,RUN854,Wide Body Airliners,1986
+28,LZN394,Jumbo Jet,1970
+29,AGS177,Turboprop Aircraft,1933
+30,GKM691,Piston Aircraft,1971
+31,ZNG543,Regional,1958
+32,XDD308,Wide Body Airliners,1913
+33,XEV536,Turboprop Aircraft,1970
+34,ZLW600,Turboprop Aircraft,1975
+35,UMU519,Regional Jet,1956
+36,MTW599,Wide Body Airliners,1984
+37,NIY536,Wide Body Airliners,1994
+38,MMR729,Mid-Size Jet,1928
+39,LUS459,Commuter liner,1981
+40,HJQ986,Mid-Size Jet,2007
+41,VEG901,Mid-Size Jet,2018
+42,UGG572,Airbus,1957
+43,VKY908,Wide Body Airliners,1914
+44,UGM799,Piston Aircraft,2003
+45,NYV956,Commuter liner,1987
+46,AJV377,Turboprop Aircraft,2012
+47,EEM231,Regional,2006
+48,XCN517,Narrow Body Aircraft,1981
+49,FYJ448,Regional Jet,2002
+50,WNB876,Airbus,1956
+51,LCU472,Piston Aircraft,1986
+52,XVB915,Wide Body Airliners,1997
+53,SZL967,Commuter liner,1963
+54,ZHD480,Mid-Size Jet,1939
+55,JOY791,Narrow Body Aircraft,1956
+56,TPT705,Jumbo Jet,1933
+57,GUU740,Regional Jet,2004
+58,WHA378,Jumbo Jet,1927
+59,ZCB520,Light Jet,1985
+60,HOL512,Light Jet,2018
+61,HKM384,Mid-Size Jet,1920
+62,GOR387,Wide Body Airliners,1985
+63,ABC148,Turboprop Aircraft,1938
+64,BUA130,Commuter liner,1927
+65,EHA425,Regional,1939
+66,PQA716,Airbus,2013
+67,IWE377,Commuter liner,2003
+68,BOR757,Wide Body Airliners,1974
+69,BQF749,Commuter liner,1971
+70,FFW434,Turboprop Aircraft,1960
+71,BBF497,Airbus,1974
+72,IGJ449,Light Jet,1947
+73,XCB785,Narrow Body Aircraft,1922
+74,KZU214,Piston Aircraft,1952
+75,ADO642,Airbus,2003
+76,EKP219,Piston Aircraft,1942
+77,CNK706,Commuter liner,1962
+78,YSW993,Commuter liner,1925
+79,XSA366,Airbus,2019
+80,QTB425,Narrow Body Aircraft,1960
+81,NMJ507,Mid-Size Jet,2020
+82,OFG488,Wide Body Airliners,2017
+83,TVL412,Airbus,1983
+84,WEQ952,Regional,1979
+85,UFY450,Airbus,1924
+86,ZEI514,Regional Jet,1950
+87,RMU352,Airbus,1968
+88,NOI860,Mid-Size Jet,2013
+89,GWK433,Narrow Body Aircraft,1961
+90,YLK432,Regional,1981
+91,FML277,Mid-Size Jet,1958
+92,BTO248,Light Jet,1926
+93,ZXP286,Turboprop Aircraft,1958
+94,UZA645,Turboprop Aircraft,1964
+95,XLO190,Piston Aircraft,2019
+96,TZE476,Regional Jet,1953
+97,OTI754,Light Jet,2017
+98,PDS116,Turboprop Aircraft,1989
+99,VSC935,Regional,1942
+100,OKG686,Jumbo Jet,1984
+1,BLS148,Light Jet,2006
+2,CRV598,Light Jet,1929
+3,HLF212,Airbus,2009
+4,QTE882,Regional,1977
+5,WMB522,Mid-Size Jet,1966
+6,FQP799,Regional Jet,2008
+7,YON665,Narrow Body Aircraft,1917
+8,SII279,Regional,1995
+9,NNX184,Light Jet,1990
+10,RRV645,Airbus,1969
+11,AOF525,Airbus,1995
+12,ACS951,Mid-Size Jet,1981
+13,FVU178,Jumbo Jet,2011
+14,BJP215,Wide Body Airliners,1968
+15,TXN180,Piston Aircraft,2000
+16,KLZ773,Mid-Size Jet,1988
+17,KUN476,Commuter liner,1929
+18,MAZ703,Regional,1944
+19,JXL555,Mid-Size Jet,2005
+20,BYE170,Narrow Body Aircraft,1945
+21,MWH771,Wide Body Airliners,1946
+22,BSC414,Jumbo Jet,1931
+23,SNB783,Piston Aircraft,1941
+24,HUO465,Regional,1985
+25,ZFK298,Regional,2004
+26,XCB439,Jumbo Jet,2014
+27,KZO495,Piston Aircraft,1913
+28,KCO881,Wide Body Airliners,2020
+29,QZH464,Turboprop Aircraft,1974
+30,INB600,Turboprop Aircraft,2018
+31,HFN486,Narrow Body Aircraft,1959
+32,WIY486,Commuter liner,2007
+33,XSC465,Mid-Size Jet,1974
+34,ACK442,Turboprop Aircraft,2013
+35,LAJ310,Wide Body Airliners,1964
+36,CQX513,Piston Aircraft,1943
+37,VSF715,Airbus,1983
+38,YUD479,Commuter liner,1996
+39,TXR957,Wide Body Airliners,2009
+40,EZZ463,Airbus,1931
+41,RLT117,Piston Aircraft,1936
+42,HEY801,Narrow Body Aircraft,1926
+43,XNH477,Mid-Size Jet,1935
+44,RVJ172,Airbus,2010
+45,CKP123,Piston Aircraft,1919
+46,AHV253,Regional,1929
+47,CAZ275,Narrow Body Aircraft,1918
+48,QIP142,Jumbo Jet,1976
+49,UII330,Commuter liner,1974
+50,VWN327,Turboprop Aircraft,1957
+51,PXM113,Mid-Size Jet,1918
+52,YAD308,Commuter liner,1978
+53,QMT510,Mid-Size Jet,1916
+54,FVJ833,Regional,1961
+55,LLK731,Jumbo Jet,1992
+56,QUQ855,Piston Aircraft,1921
+57,HKV811,Regional Jet,1996
+58,UIH814,Commuter liner,2002
+59,QAX796,Mid-Size Jet,1976
+60,XDQ464,Jumbo Jet,2009
+61,VHN171,Commuter liner,1999
+62,GRX833,Light Jet,1945
+63,YME945,Jumbo Jet,1914
+64,KKT576,Jumbo Jet,1999
+65,AWZ426,Narrow Body Aircraft,1914
+66,YCE127,Turboprop Aircraft,2003
+67,AHU442,Narrow Body Aircraft,1911
+68,XLD904,Commuter liner,2010
+69,HDQ768,Commuter liner,2012
+70,NDV419,Regional Jet,2018
+71,ZCT357,Airbus,2012
+72,ICF234,Light Jet,1938
+73,HZR386,Wide Body Airliners,1923
+74,SHJ265,Jumbo Jet,1912
+75,QYX922,Narrow Body Aircraft,1997
+76,COH357,Turboprop Aircraft,1933
+77,XLL107,Light Jet,1957
+78,EOI875,Regional,1954
+79,YXR403,Wide Body Airliners,1959
+80,GZX842,Commuter liner,1999
+81,ULU843,Regional,2013
+82,UUH215,Regional,1973
+83,TYP150,Commuter liner,1974
+84,XPL292,Wide Body Airliners,1945
+85,DLB603,Narrow Body Aircraft,1926
+86,DXR180,Regional,1996
+87,AUP717,Piston Aircraft,1993
+88,TOZ525,Turboprop Aircraft,1937
+89,RAB987,Wide Body Airliners,1928
+90,JUD750,Light Jet,1984
+91,WPG396,Regional Jet,2019
+92,JBK955,Piston Aircraft,1913
+93,BBT421,Airbus,1931
+94,JTA631,Airbus,1979
+95,KKN646,Regional,1936
+96,YIB114,Airbus,1961
+97,AGJ587,Turboprop Aircraft,2003
+98,ABS209,Regional,1973
+99,QFI110,Regional,2008
+100,LXF982,Mid-Size Jet,1963
+101,GNM348,Wide Body Airliners,1994
+102,AYL646,Piston Aircraft,1939
+103,GSC931,Regional,1989
+104,PYO467,Mid-Size Jet,2017
+105,YCF350,Turboprop Aircraft,1917
+106,NIK786,Airbus,2011
+107,WAB207,Jumbo Jet,1995
+108,GBT499,Regional Jet,1914
+109,GWP723,Light Jet,1947
+110,MDV648,Narrow Body Aircraft,1935
+111,JVU338,Piston Aircraft,1917
+112,ZYH478,Commuter liner,1984
+113,GFE733,Piston Aircraft,1957
+114,BRB489,Piston Aircraft,1992
+115,QZL188,Regional Jet,1957
+116,QVY147,Regional Jet,2008
+117,IKW856,Narrow Body Aircraft,1912
+118,QEU897,Commuter liner,1980
+119,ZUO943,Mid-Size Jet,2014
+120,YDK240,Narrow Body Aircraft,1964
+121,UII986,Narrow Body Aircraft,1973
+122,RRQ664,Wide Body Airliners,1940
+123,UFM772,Regional,1942
+124,YZS321,Mid-Size Jet,1940
+125,EEB980,Regional,1947
+126,VST489,Jumbo Jet,1913
+127,JLG269,Light Jet,1947
+128,TVU431,Jumbo Jet,1959
+129,TYX262,Piston Aircraft,1991
+130,GAK165,Regional Jet,1955
+131,IBV136,Airbus,1997
+132,PGD792,Regional,1978
+133,VQZ283,Commuter liner,1942
+134,PJP701,Mid-Size Jet,1969
+135,XXK770,Commuter liner,1994
+136,HNQ491,Piston Aircraft,1967
+137,AYN259,Commuter liner,2012
+138,TAS413,Regional,1962
+139,CRX242,Wide Body Airliners,2007
+140,AOG325,Narrow Body Aircraft,1979
+141,DYS711,Airbus,1921
+142,VAM583,Mid-Size Jet,2009
+143,QDZ870,Jumbo Jet,1941
+144,SCJ116,Regional,1979
+145,RFJ155,Commuter liner,1989
+146,BSW500,Turboprop Aircraft,2009
+147,JUE336,Jumbo Jet,1989
+148,IMW766,Jumbo Jet,2004
+149,YOI665,Commuter liner,1965
+150,KIE617,Wide Body Airliners,1933
