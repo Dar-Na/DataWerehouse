@@ -2,6 +2,7 @@ import datetime
 import geopy
 from geopy import distance
 import random
+import csv
 
 LETTERS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
            'w', 'x', 'y', 'z']
@@ -49,6 +50,12 @@ def time(kurses):
         times.append([fCity, tCity, time])
     return times
 
+def readCSV(file):
+    data = []
+    with open(file, newline='') as f:
+        reader = csv.reader(f)
+        data = list(reader)
+    return data
 
 def parse(file):
     temp = open(file, "r")

@@ -13,7 +13,7 @@ def awaria(samolotZastepczy, samolotAwaria):
 def retTime(time):
     return datetime.datetime.strptime(time, "%c")
 
-def generateLoty(num, kurses, samolots, pilotes, times, start_date, end_date):
+def generateLoty(num, kurses, samolots, pilotes, times, start_date, end_date, kontrolerzy):
     loty = []
     pilociWLocie = []
     awarii = []
@@ -27,7 +27,7 @@ def generateLoty(num, kurses, samolots, pilotes, times, start_date, end_date):
             pilot1 = pilotes[random.randrange(0, len(pilotes))][0]
             pilot2 = pilotes[random.randrange(0, len(pilotes))][0]
         boardingTime = random.randrange(20, 300)
-        kontroler = "NaN"
+        kontroler = kontrolerzy[random.randrange(1, len(kontrolerzy))][3]
         idAwarii = ""
         klasaLotu = deps.klassyArr[random.randrange(0, len(deps.klassyArr))]
         if random.randrange(0, 11) > 9:
