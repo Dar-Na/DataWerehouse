@@ -35,8 +35,9 @@ if __name__ == "__main__":
     samolots = samolot.generateSamolts(num=100)
     print(samolots)
     # GENERATE KURSES
-    kurses = kurs.generateKurses(num=30)
+    kurses = kurs.generateKurses(num=10)
     print(kurses)
+    save(kurses, "kurses.csv")
     # CALCULATE TIME FROM ONE CITY TO ANOTHER
     times = deps.time(kurses)
     print(times)
@@ -66,7 +67,7 @@ if __name__ == "__main__":
     # MERGE TABLES AIRPLANES
     SAMOLOTS = samolots + samolots2
     # GENERATE KURSES
-    kurses2 = kurs.generateKurses(num=50)
+    kurses2 = kurs.generateKurses(num=20)
     print(kurses2)
     # MERGE TABLES KURSES
     KURSES = kurses + kurses2

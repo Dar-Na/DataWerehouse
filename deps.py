@@ -5,9 +5,11 @@ import random
 
 LETTERS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
            'w', 'x', 'y', 'z']
-cities = ["Gdańsk", "Wrocław", "Warszawa", "Kraków", "Poznań", "Londyn", "Rzym", "Sztokholm", "Oslo", "Paryż",
+cities = ["Wrocław", "Warszawa", "Kraków", "Poznań", "Londyn", "Rzym", "Sztokholm", "Oslo", "Paryż",
           "Barcelona", "Kiruna", "Bruksela", "Evenes", "Helsinki", "Hamburg", "Kolonia", "Berlin", "Lipsk",
           "Kopenhaga", "Ateny", "Kalamata", "Sybin", "Praga", "Ostrawa", "Lublana", "Mumbaj", "Astana", "Hawana"]
+
+klassyArr = ["biznesowa", "zwykła", "ekonomiczna"]
 
 def getAttr(str, ind1, ind2):
     index2 = findnth(str, ",", ind2-1)
@@ -29,8 +31,12 @@ def time(kurses):
         str = str.split("-")
         fCity = str[0]
         tCity = str[1]
-        fCityLocation = geolocator.geocode(fCity)
-        tCityLocation = geolocator.geocode(tCity)
+        try:
+            fCityLocation = geolocator.geocode(fCity)
+            tCityLocation = geolocator.geocode(tCity)
+        except:
+            fCityLocation = geolocator.geocode(fCity)
+            tCityLocation = geolocator.geocode(tCity)
         dist = distance.geodesic(
             (fCityLocation.latitude, fCityLocation.longitude),
             (tCityLocation.latitude, tCityLocation.longitude)
