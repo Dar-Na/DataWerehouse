@@ -19,6 +19,9 @@ if __name__ == "__main__":
     surnames = deps.parse("surnames.txt")
     print(surnames)
 
+    kontrolerzy = deps.readCSV("./data/Kontrolerzy.csv")
+    print(kontrolerzy)
+
     # OKRES Z T2 DO T1
     start_date_one = datetime.date(2019, 1, 1)
     end_date_one = datetime.date(2020, 12, 31)
@@ -44,7 +47,7 @@ if __name__ == "__main__":
     # GENERATE LOTY, AWARII AND PILOTÓW
     loty1, awarii, pilociWLocie = loty.generateLoty(
         num=6000, kurses=kurses, samolots=samolots, pilotes=pilots,
-        times=times, start_date=start_date_one, end_date=end_date_one
+        times=times, start_date=start_date_one, end_date=end_date_one, kontrolerzy=kontrolerzy
     )
 
     # OKRES Z T1 DO T2
@@ -79,7 +82,7 @@ if __name__ == "__main__":
     # GENERATE LOTY, AWARII AND PILOTÓW
     loty2, awarii2, pilociWLocie2 = loty.generateLoty(
         num=10000, kurses=KURSES, samolots=SAMOLOTS, pilotes=PILOTS,
-        times=TIMES, start_date=start_date_one, end_date=end_date_one
+        times=TIMES, start_date=start_date_one, end_date=end_date_one, kontrolerzy=kontrolerzy
     )
 
     # CHANGE NAMES AND SURNAMES
