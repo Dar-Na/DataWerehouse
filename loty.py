@@ -29,7 +29,7 @@ def generateLoty(num, kurses, samolots, pilotes, times, start_date, end_date):
         boardingTime = random.randrange(20, 300)
         kontroler = "NaN"
         idAwarii = ""
-        klasaLotu = "NaN"
+        klasaLotu = deps.klassyArr[random.randrange(0, len(deps.klassyArr))]
         if random.randrange(0, 11) > 9:
             samolotAwaria = samolots[random.randrange(0, len(samolots))][0]
             while (samolot == samolotAwaria):
