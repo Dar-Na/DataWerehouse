@@ -27,7 +27,7 @@ if __name__ == "__main__":
     end_date_one = datetime.date(2020, 12, 31)
 
     # NUMBER OF PESELS
-    num = 2000
+    num = 400
     # GENERATE PESELS
     PESELS = pilot.generatePESELs(num=num, start_date=start_date_one, end_date=end_date_one)
     print(PESELS)
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     print(pilots)
     save(pilots, "T0-T1/PILOTS.csv")
     # GENERATE AIRPLANES
-    samolots = samolot.generateSamolts(num=1000)
+    samolots = samolot.generateSamolts(num=50)
     print(samolots)
     save(samolots, "T0-T1/SAMOLOTS.csv")
     # GENERATE KURSES
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
     # GENERATE LOTY, AWARII AND PILOTÓW
     loty1, awarii, pilociWLocie = loty.generateLoty(
-        num=60000, kurses=kurses, samolots=samolots, pilotes=pilots,
+        num=300, kurses=kurses, samolots=samolots, pilotes=pilots,
         times=times, start_date=start_date_one, end_date=end_date_one, kontrolerzy=kontrolerzy
     )
     save(loty1, "T0-T1/LOTY.csv")
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     end_date_two = datetime.date(2022, 12, 31)
 
     # NUMBER OF PESELS
-    num = 10000
+    num = 200
     # GENERATE PESELS
     PESELS2 = pilot.generatePESELs(num=num, start_date=start_date_two, end_date=end_date_two)
     print(PESELS2)
@@ -82,7 +82,7 @@ if __name__ == "__main__":
     save(newName, "newName.csv")
 
     # GENERATE AIRPLANES
-    samolots2 = samolot.generateSamolts(num=1500)
+    samolots2 = samolot.generateSamolts(num=20)
     print(samolots2)
     # MERGE TABLES AIRPLANES
     SAMOLOTS = samolots + samolots2
@@ -107,7 +107,7 @@ if __name__ == "__main__":
 
     # GENERATE LOTY, AWARII AND PILOTÓW
     loty2, awarii2, pilociWLocie2 = loty.generateLoty(
-        num=800000, kurses=KURSES, samolots=SAMOLOTS, pilotes=PILOTS,
+        num=700, kurses=KURSES, samolots=SAMOLOTS, pilotes=PILOTS,
         times=TIMES, start_date=start_date_one, end_date=end_date_one, kontrolerzy=kontrolerzy
     )
 
