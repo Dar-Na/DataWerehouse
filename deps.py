@@ -3,6 +3,7 @@ import geopy
 from geopy import distance
 import random
 import csv
+from itertools import groupby
 
 LETTERS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
            'w', 'x', 'y', 'z']
@@ -23,6 +24,8 @@ def findnth(haystack, needle, n):
         return -1
     return len(haystack) - len(parts[-1]) - len(needle)
 
+def delDuplicates(array):
+    return [max(g) for _, g in groupby(array, lambda x: x[0])]
 
 def time(kurses):
     times = []

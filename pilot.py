@@ -24,21 +24,17 @@ def generatePilots(PESELs, names, surnames):
 
     return arr
 
-def changeName(PESELs, names, surnames):
-    arr = []
-    for i in range(0, len(PESELs)):
+def changeName(pilots, names, surnames):
+    arr = pilots
+    newName = []
+    for i in range(0, len(pilots)):
         if (random.randrange(0, 100) > 90):
-            pesel = PESELs[i]
-            name = names[random.randrange(0, len(names))]
-            if i % 2 == 0:
-                surname = surnames.pop(random.randrange(0, len(surnames)))
-            else:
-                surname = surnames[random.randrange(0, len(surnames))]
-            pilot = str(i+1) + "," + str(pesel) + "," + name + "," + surname
-            print(pilot)
-            arr.append([str(pesel), name, surname])
+            nameOld = names[random.randrange(0, len(names))]
+            surnameOld = surnames[random.randrange(0, len(surnames))]
+            arr[i] = [arr[i][0], nameOld, surnameOld]
+            newName.append(arr[i])
 
-    return arr
+    return arr, newName
 
 def PESEL(random_date):
     year = random_date.year
