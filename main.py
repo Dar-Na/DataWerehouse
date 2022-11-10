@@ -23,8 +23,8 @@ if __name__ == "__main__":
     print(kontrolerzy)
 
     # OKRES Z T2 DO T1
-    start_date_one = datetime.date(2018, 1, 1)
-    end_date_one = datetime.date(2020, 12, 31)
+    start_date_one = datetime.date(2000, 1, 1)
+    end_date_one = datetime.date(2010, 12, 31)
 
     # NUMBER OF PESELS
     num = 400
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     save(pilociWLocie, "T0-T1/PILOCIWLOCIE.csv")
 
     # OKRES Z T1 DO T2
-    start_date_two = datetime.date(2021, 1, 1)
+    start_date_two = datetime.date(2011, 1, 1)
     end_date_two = datetime.date(2022, 12, 31)
 
     # NUMBER OF PESELS

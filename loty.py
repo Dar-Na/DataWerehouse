@@ -27,7 +27,6 @@ def generateLoty(num, kurses, samolots, pilotes, times, start_date, end_date, ko
             pilot1 = pilotes[random.randrange(0, len(pilotes))][0]
             pilot2 = pilotes[random.randrange(0, len(pilotes))][0]
         boardingTime = random.randrange(20, 300)
-        kontroler = kontrolerzy[random.randrange(1, len(kontrolerzy))][3]
         idAwarii = ""
         klasaLotu = deps.klassyArr[random.randrange(0, len(deps.klassyArr))]
         if random.randrange(0, 11) > 9:
@@ -39,6 +38,12 @@ def generateLoty(num, kurses, samolots, pilotes, times, start_date, end_date, ko
             awarii.append([idAwarii, samolot, samolotAwaria])
         tmpTime = deps.randomDate(start_date=start_date, end_date=end_date)
         tmpTime = datetime.datetime(tmpTime.year, tmpTime.month, tmpTime.day, 0, 0, 0)
+        kontroler = kontrolerzy[random.randrange(1, len(kontrolerzy))]
+        while datetime.datetime.strptime(kontroler[6], '%Y-%m-%d').date() < tmpTime.date():
+            print(datetime.datetime.strptime(kontroler[6], '%Y-%m-%d').date(), "---------------------", tmpTime.date())
+            kontroler = kontrolerzy[random.randrange(1, len(kontrolerzy))]
+            tmpTime = deps.randomDate(start_date=start_date, end_date=end_date)
+            tmpTime = datetime.datetime(tmpTime.year, tmpTime.month, tmpTime.day, 0, 0, 0)
         oczekiwanyCzasR = tmpTime + timedelta(hours=random.randrange(0, 23), minutes=random.randrange(0, 59), seconds=random.randrange(0, 59))
         oczekiwanyCzasZ = oczekiwanyCzasR + timedelta(hours=times[kursId][2])
         opz = 0
@@ -48,13 +53,14 @@ def generateLoty(num, kurses, samolots, pilotes, times, start_date, end_date, ko
         opz = opz + random.randrange(0, 15)
         rzeczywistyCzasZ = oczekiwanyCzasZ + timedelta(minutes=opz)
 
+
         pilociWLocie.append([pilot1, pilot2, kurs, samolot, retTime(rzeczywistyCzasR.ctime())])
         loty.append([
             kurs, samolot,
             retTime(rzeczywistyCzasR.ctime()), retTime(rzeczywistyCzasZ.ctime()),
             retTime(oczekiwanyCzasZ.ctime()), retTime(oczekiwanyCzasR.ctime()),
             idAwarii, str(boardingTime),
-            klasaLotu, kontroler
+            klasaLotu, kontroler[3]
         ])
 
     return loty, awarii, pilociWLocie
