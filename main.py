@@ -22,7 +22,7 @@ if __name__ == "__main__":
     kontrolerzy = deps.readCSV("./data/Kontrolerzy.csv")
     print(kontrolerzy)
 
-    # OKRES Z T2 DO T1
+    # OKRES Z T0 DO T1
     start_date_one = datetime.date(2000, 1, 1)
     end_date_one = datetime.date(2010, 12, 31)
 
@@ -74,12 +74,12 @@ if __name__ == "__main__":
     # GENERATE PILOTS
     pilots2 = pilot.generatePilots(PESELs=PESELS2, names=names, surnames=surnames)
     print(pilots2)
-    pilots, newName = pilot.changeName(pilots=pilots, names=names, surnames=surnames)
+    # pilots, newName = pilot.changeName(pilots=pilots, names=names, surnames=surnames)
 
     # MERGE TABLES PILOTS
     PILOTS = pilots + pilots2
     save(PILOTS, "T0-T2/PILOTS.csv")
-    save(newName, "newName.csv")
+    # save(newName, "newName.csv")
 
     # GENERATE AIRPLANES
     samolots2 = samolot.generateSamolts(num=20)
@@ -89,7 +89,7 @@ if __name__ == "__main__":
     save(SAMOLOTS, "T0-T2/SAMOLOTS.csv")
 
     # GENERATE KURSES
-    kurses2 = kurs.generateKurses(num=30)
+    kurses2 = kurs.generateKurses(num=10)
     kurses2 = deps.delDuplicates(kurses2)
     print(kurses2)
     # MERGE TABLES KURSES

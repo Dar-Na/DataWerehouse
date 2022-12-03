@@ -60,7 +60,7 @@ def generateLoty(num, kurses, samolots, pilotes, times, start_date, end_date, ko
             retTime(rzeczywistyCzasR.ctime()), retTime(rzeczywistyCzasZ.ctime()),
             retTime(oczekiwanyCzasZ.ctime()), retTime(oczekiwanyCzasR.ctime()),
             idAwarii, str(boardingTime),
-            klasaLotu, kontroler[3]
+            klasaLotu, kontroler[2]
         ])
 
     return loty, awarii, pilociWLocie
