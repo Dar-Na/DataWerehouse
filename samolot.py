@@ -23,6 +23,7 @@ def generateIndexes(num):
 
 def generateSamolts(num):
     samolots = []
+    sO = []
     types = [
         "Turboprop Aircraft", "Piston Aircraft", "Light Jet",
         "Mid-Size Jet", "Jumbo Jet", "Regional Jet",
@@ -35,8 +36,12 @@ def generateSamolts(num):
         klasaLotu = deps.klassyArr[random.randrange(0, len(deps.klassyArr))]
         year = random.randrange(1911, 2022)
         type = types[random.randrange(0, len(types))]
+        while sO.__contains__([type, str(year)]):
+            year = random.randrange(1911, 2022)
+            type = types[random.randrange(0, len(types))]
         samolot = str(i + 1) + "," + str(index) + "," + type + "," + str(year)
         print(samolot)
         samolots.append([str(index), type, str(year), klasaLotu])
+        sO.append([type, str(year)])
 
     return samolots
