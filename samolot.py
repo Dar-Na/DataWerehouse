@@ -32,10 +32,11 @@ def generateSamolts(num):
     indexes = generateIndexes(num)
     for i in range(0, num):
         index = indexes[i]
+        klasaLotu = deps.klassyArr[random.randrange(0, len(deps.klassyArr))]
         year = random.randrange(1911, 2022)
         type = types[random.randrange(0, len(types))]
         samolot = str(i + 1) + "," + str(index) + "," + type + "," + str(year)
         print(samolot)
-        samolots.append([str(index), type, str(year)])
+        samolots.append([str(index), type, str(year), klasaLotu])
 
     return samolots

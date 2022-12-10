@@ -28,7 +28,6 @@ def generateLoty(num, kurses, samolots, pilotes, times, start_date, end_date, ko
             pilot2 = pilotes[random.randrange(0, len(pilotes))][0]
         boardingTime = random.randrange(20, 300)
         idAwarii = ""
-        klasaLotu = deps.klassyArr[random.randrange(0, len(deps.klassyArr))]
         if random.randrange(0, 11) > 9:
             samolotAwaria = samolots[random.randrange(0, len(samolots))][0]
             while (samolot == samolotAwaria):
@@ -59,8 +58,7 @@ def generateLoty(num, kurses, samolots, pilotes, times, start_date, end_date, ko
             kurs, samolot,
             retTime(rzeczywistyCzasR.ctime()), retTime(rzeczywistyCzasZ.ctime()),
             retTime(oczekiwanyCzasZ.ctime()), retTime(oczekiwanyCzasR.ctime()),
-            idAwarii, str(boardingTime),
-            klasaLotu, kontroler[2]
+            idAwarii, str(boardingTime), kontroler[2]
         ])
 
     return loty, awarii, pilociWLocie
