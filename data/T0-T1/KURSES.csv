@@ -1,11 +1,11 @@
 0,1,2,3
-GDA-LON,Gdańsk lotnisko,Londyn lotnisko,Gdańsk-Londyn
-LON-GDA,Londyn lotnisko,Gdańsk lotnisko,Londyn-Gdańsk
-GDA-OSL,Gdańsk lotnisko,Oslo lotnisko,Gdańsk-Oslo
-OSL-GDA,Oslo lotnisko,Gdańsk lotnisko,Oslo-Gdańsk
+GDA-SYB,Gdańsk lotnisko,Sybin lotnisko,Gdańsk-Sybin
+SYB-GDA,Sybin lotnisko,Gdańsk lotnisko,Sybin-Gdańsk
+GDA-LUB,Gdańsk lotnisko,Lublana lotnisko,Gdańsk-Lublana
+LUB-GDA,Lublana lotnisko,Gdańsk lotnisko,Lublana-Gdańsk
 GDA-BAR,Gdańsk lotnisko,Barcelona lotnisko,Gdańsk-Barcelona
 BAR-GDA,Barcelona lotnisko,Gdańsk lotnisko,Barcelona-Gdańsk
-GDA-KIR,Gdańsk lotnisko,Kiruna lotnisko,Gdańsk-Kiruna
-KIR-GDA,Kiruna lotnisko,Gdańsk lotnisko,Kiruna-Gdańsk
-GDA-PAR,Gdańsk lotnisko,Paryż lotnisko,Gdańsk-Paryż
-PAR-GDA,Paryż lotnisko,Gdańsk lotnisko,Paryż-Gdańsk
+GDA-BER,Gdańsk lotnisko,Berlin lotnisko,Gdańsk-Berlin
+BER-GDA,Berlin lotnisko,Gdańsk lotnisko,Berlin-Gdańsk
+GDA-LON,Gdańsk lotnisko,Londyn lotnisko,Gdańsk-Londyn
+LON-GDA,Londyn lotnisko,Gdańsk lotnisko,Londyn-Gdańsk
