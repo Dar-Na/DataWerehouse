@@ -38,7 +38,7 @@ def generateLoty(num, kurses, samolots, pilotes, times, start_date, end_date, ko
         tmpTime = deps.randomDate(start_date=start_date, end_date=end_date)
         tmpTime = datetime.datetime(tmpTime.year, tmpTime.month, tmpTime.day, 0, 0, 0)
         kontroler = kontrolerzy[random.randrange(1, len(kontrolerzy))]
-        while datetime.datetime.strptime(kontroler[6], '%Y-%m-%d').date() < tmpTime.date():
+        while datetime.datetime.strptime(kontroler[6], '%Y-%m-%d').date() > tmpTime.date():
             print(datetime.datetime.strptime(kontroler[6], '%Y-%m-%d').date(), "---------------------", tmpTime.date())
             kontroler = kontrolerzy[random.randrange(1, len(kontrolerzy))]
             tmpTime = deps.randomDate(start_date=start_date, end_date=end_date)
