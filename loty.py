@@ -56,8 +56,8 @@ def generateLoty(num, kurses, samolots, pilotes, times, start_date, end_date, ko
         pilociWLocie.append([pilot1, pilot2, kurs, samolot, retTime(rzeczywistyCzasR.ctime())])
         loty.append([
             kurs, samolot,
-            retTime(rzeczywistyCzasR.ctime()), retTime(rzeczywistyCzasZ.ctime()),
-            retTime(oczekiwanyCzasZ.ctime()), retTime(oczekiwanyCzasR.ctime()),
+            retTime(oczekiwanyCzasR.ctime()), retTime(rzeczywistyCzasR.ctime()),
+            retTime(oczekiwanyCzasZ.ctime()), retTime(rzeczywistyCzasZ.ctime()),
             idAwarii, str(boardingTime), kontroler[2]
         ])
 
